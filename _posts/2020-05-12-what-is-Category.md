@@ -607,6 +607,7 @@ load方法调用顺序
 通过源码我们发现是优先调用父类的load方法，之后是子类的load方法，之后调用分类的load方法。
 
 我们通过代码验证一下：
+
 我们添加Student继承Presen类，并添加Student+Test分类，分别重写只+load方法，其他什么都不做通过打印发现
 
 
@@ -659,11 +660,15 @@ load方法的调用源码
 #### 总结
 
 问：Category中有load方法吗？load方法是什么时候调用的？load 方法能继承吗？
+
 答：Category中有load方法，load方法在程序启动装载类信息的时候就会调用。load方法可以继承。调用子类的load方法之前，会先调用父类的load方法
 
 问：load、initialize的区别，以及它们在category重写的时候的调用的次序。
+
 答：区别在于调用方式和调用时刻
+
 调用方式：load是根据函数地址直接调用，initialize是通过objc_msgSend调用
+
 调用时刻：load是runtime加载类、分类的时候调用（只会调用1次），initialize是类第一次接收到消息的时候调用，每一个类只会initialize一次（父类的initialize方法可能会被调用多次）
 
 调用顺序：先调用类的load方法，先编译那个类，就先调用load。在调用load之前会先调用父类的load方法。分类中load方法不会覆盖本类的load方法，先编译的分类优先调用load方法。initialize先初始化父类，之后再初始化子类。如果子类没有实现+initialize，会调用父类的+initialize（所以父类的+initialize可能会被调用多次），如果分类实现了+initialize，就覆盖类本身的+initialize调用。

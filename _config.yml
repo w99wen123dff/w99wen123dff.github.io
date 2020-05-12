@@ -3,7 +3,7 @@ title: 微风往事
 subtitle: 你好，我是w99wen
 # welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 description: 我喜欢的人儿啊</br>已经远嫁他乡</br>没有了你</br>生活也变得郁郁寡欢
-creator: <a href="https://www.w99wen.live">@onevcat</a>
+creator: <a href="https://www.w99wen.live">@w99wen</a>
 
 url: "https://www.w99wen.live"
 
@@ -38,11 +38,11 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    # weibo: onevcat
+    github: w99wen123dff
+    # twitter: onevcat
+    # gplus: 107108267983477358170
+    mail: w99wen@gmail.com
 
 # Google Analytics
 ga:

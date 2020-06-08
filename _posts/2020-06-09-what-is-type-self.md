@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  如何理解Swift中的Any、AnyObject、X.self、X.Type、AnyClass、Self

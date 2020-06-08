@@ -17,7 +17,7 @@ is：判断是否是某种类型（既可以是类与类之间的判断，也可
 
 
 
-```dart
+```swift
 protocol testProtocol {}
 class Animal {}
 class Person: testProtocol, Animal {}
@@ -39,7 +39,7 @@ X.self: 是一个元类型（metadata）的指针，存放着类型相关的信�
 
 
 
-```csharp
+```swift
 class Person {}
 var P = Person()
 ```
@@ -92,7 +92,7 @@ pType = Student.self // 因为子类，所有可以这样写
 
 
 
-```php
+```swift
 var anyType: AnyObject.Type = Perosn.self
 anyType = Student.self
 ```
@@ -285,3 +285,4 @@ let cell: MyCustomCell = tableView.dequeueReusableCell(for: indexPath)
 
 - [Whats Type And Self Swift Metatypes](https://swiftrocks.com/whats-type-and-self-swift-metatypes.html)
 - [ANYCLASS，元类型和 .SELF](https://swifter.tips/self-anyclass/)
+- [.self 和 .SELF](https://swifter.tips/self-anyclass/)https://www.jianshu.com/p/e57ff751c825

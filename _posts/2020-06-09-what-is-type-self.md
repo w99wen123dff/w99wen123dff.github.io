@@ -1,13 +1,16 @@
 ---
 layout: post
-title:  如何理解Swift中的Any、AnyObject、X.self、X.Type、AnyClass、Self
+title:  Swift中的Any、AnyObject、AnyClass、X.self、X.Type、Self
 date: 2020-06-09 01:00:00.000000000 +08:00
 ---
+
+
 
 # Any、AnyObject
 
 Any: 类似于OC中的instanceType，可以代表任意类型
- AnyObject: 代表任意 类 类型，像枚举、结构体，都不行
+
+AnyObject: 代表任意 类 类型，像枚举、结构体，都不行
 
 # is as
 

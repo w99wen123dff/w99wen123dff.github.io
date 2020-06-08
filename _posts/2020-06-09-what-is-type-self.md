@@ -284,4 +284,4 @@ let cell: MyCustomCell = tableView.dequeueReusableCell(for: indexPath)
 
 - [Whats Type And Self Swift Metatypes](https://swiftrocks.com/whats-type-and-self-swift-metatypes.html)
 - [ANYCLASS，元类型和 .SELF](https://swifter.tips/self-anyclass/)
-- [.self 和 .SELF](https://swifter.tips/self-anyclass/)https://www.jianshu.com/p/e57ff751c825
+- [.self 和 .SELF](https://swifter.tips/self-anyclass/)https://www.jianshu.com/p/e57ff751c825)
